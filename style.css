@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+img{
+    width:40%;
+}
+.form{
+    background-color: white;
+}
+.main{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.box{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.heading, .heading2{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-bottom: 50px;
+    gap: 10px;
+    margin: 30px 0px;
+}
+.row1, .row2, .row3{
+    display: flex;
+    justify-content: space-around;
+}
+label{
+    font-size: 8px;
+}
+.obj{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: fit-content;
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    border:0;
+    border-radius: 5px;
+    padding:8px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.logIn{
+    margin-left: 20px;
+}

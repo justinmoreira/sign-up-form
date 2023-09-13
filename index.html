@@ -7,33 +7,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src = "Background Image.avif" alt = "Background Image">
-    <div class = "main">
-        <div class = "heading">This is not a real online service! Sign up now to get started</div>
-        <div class = "form">
-            <div class = "heading">Let's do this!</div>
+    <div class = "box">
+        <img src = "Background Image.avif" alt = "Background Image">
+        <div class = "main">
+            <div class = "heading">This is not a real online service! Sign up now to get started</div>
+            <div class = "form">
+                <div class = "heading2">Let's do this!</div>
 
-            <label for="first_name">FIRST NAME</label>
-            <input type = "text" id = "first_name">
+                <div class = "row1">
+                    <div class = "obj">
+                        <label for="first_name">FIRST NAME</label>
+                        <input type = "text" id = "first_name">
+                    </div>
+                    
+                    <div class = "obj">
+                        <label for="last_name">LAST NAME</label>
+                        <input type = "text" id = "last_name">
+                    </div>
+                    
+                </div>
+                
+                <div class = "row2">
+                    <div class = "obj">
+                        <label for="user_email">EMAIL ADDRESS</label>
+                        <input type = "email" id = "user_email" name = "email">
+                    </div>
+                    
+                    <div class = "obj">
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type = "tel" id = "phone_number" name = "phone_number">
+                    </div>
+                </div>
+                
+                <div class = "row3">
+                    <div class = "obj">
+                        <label for="user_password">PASSWORD</label>
+                        <input type = "password" id = "user_password" name = "password">
+                    </div>
 
-            <label for="last_name">LAST NAME</label>
-            <input type = "text" id = "last_name">
-
-            <label for="user_email">EMAIL ADDRESS</label>
-            <input type = "email" id = "user_email" name = "email">
-
-            <label for="phone_number">PHONE NUMBER</label>
-            <input type = "tel" id = "phone_number" name = "phone_number">
-
-            <label for="user_password">PASSWORD</label>
-            <input type = "password" id = "user_password" name = "password">
-
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input type = "password" id = "confirm_password" name = "confirm_password">
+                    <div class = "obj">
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type = "password" id = "confirm_password" name = "confirm_password">
+                    </div>
+                </div>
+            </div>
+            <button type = "submit">Create Account</button>
+            <div class = "logIn">Already have an account? <a href = "">Log in</a></div>
+            
         </div>
-        <button type = "submit">Create Account</button>
-        <div>Already have an account?</div>
-        <a href = "">Log in</a>
     </div>
+    
 </body>
 </html>
