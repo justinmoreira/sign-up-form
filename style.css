@@ -2,10 +2,7 @@ body{
     background-color: black;
 }
 img{
-    width:40%;
-}
-.form{
-    background-color: white;
+    width:36%;
 }
 .main{
     background-color: lightgray;
@@ -24,20 +21,21 @@ img{
     font-weight: bold;
     padding: 20px;
 }
-.form{
+form{
+    background-color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     gap: 10px;
     margin: 30px 0px;
 }
 .row1, .row2, .row3{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 label{
-    font-size: 8px;
+    font-size: 10px;
 }
 .obj{
     display: flex;
@@ -45,15 +43,29 @@ label{
 }
 button{
     width: fit-content;
-    background-color: aqua;
+    background-color: salmon;
     font-size: 15px;
     font-weight: bold;
     border:0;
     border-radius: 5px;
-    padding:8px;
-    margin-bottom: 20px;
+    padding:10px;
     margin-left: 20px;
+    margin-top: 10px;
 }
 .logIn{
     margin-left: 20px;
+}
+.credit{
+    position: absolute;
+    bottom: 8px;
+    left:16px;
+    color:white;
+}
+a{
+    color:salmon;
+}
+input{
+    width:200px;
+    border: 1px solid salmon;
+    border-radius: 5px;
 }
